@@ -1,0 +1,2 @@
+python3\[.*\]: ansible-[a-z]+ Invoked
+python3\[.*\]: ansible-ansible.legacy.stat

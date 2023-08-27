@@ -1,0 +1,4 @@
+# -- Do not modify by hand -- Ansible managed -----------------
+nagios2 nagios4\[.*\]: SERVICE ALERT
+nagios2 nagios4\[.*\]: HOST ALERT
+nagios2 nagios4\[.*\]: Auto-save of retention data completed successfully.

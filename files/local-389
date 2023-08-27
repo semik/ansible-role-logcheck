@@ -1,0 +1,61 @@
+# -- Do not modify by hand -- Ansible managed -----------------
+ns-slapd\[.*\]: .*ERR - SSM:apply_ruleset - Modification error \(32\): No such object
+ns-slapd\[.*\]: ERROR: ld.so: object
+ns-slapd\[.*\]: If total update fails you can try to increase nsds5ReplicaFlowControlPause and/or decrease nsds5ReplicaFlowControlWindow in the replica agreement configuration
+ns-slapd\[.*\]: You may increase nsds5ReplicaFlowControlPause and/or decrease nsds5ReplicaFlowControlWindow in the replica agreement configuration
+ns-slapd\[.*\]: [.*] - INFO - NSMMReplicationPlugin - replica_subentry_create - add dn: cn=repl keep alive
+ns-slapd\[.*\]: [.*] - NOTICE - NSMMReplicationPlugin - replica_subentry_check - Need to create replication keep alive entry
+ns-slapd\[.*\]: \[.*\] - ERR - NSACLPlugin - acl_access_allowed - Resetting aclpb_pblock
+ns-slapd\[.*\]: \[.*\] - ERR - NSMMReplicationPlugin - agmt=.*: Total update flow control triggered .* times
+ns-slapd\[.*\]: \[.*\] - ERR - NSMMReplicationPlugin - check_flow_control_tot_init - agmt=.* -  Total update flow control gives time .* to the consumer before sending more entries
+ns-slapd\[.*\]: \[.*\] - ERR - altpass-plugin - No alt-password found for .*, trying fallback to primary password. conf->password_fallback=1
+ns-slapd\[.*\]: \[.*\] - ERR - altpass-plugin - No service assigned to .*; trying to fallback to default
+ns-slapd\[.*\]: \[.*\] - ERR - altpass-plugin - No service group found for
+ns-slapd\[.*\]: \[.*\] - ERR - altpass-plugin - conn=.* matched password .* for user .* and for client
+ns-slapd\[.*\]: \[.*\] - ERR - connection_read_operation - conn=.* received a non-LDAP message
+ns-slapd\[.*\]: \[.*\] - ERR - do_abandon - get_ldapmessage_controls failed: 12 \(Critical extension is unavailable\) \(op=Abandon\)
+ns-slapd\[.*\]: \[.*\] - ERR - get_ldapmessage_controls_ext - Received control\(s\) on an LDAPv2 connection
+ns-slapd\[.*\]: \[.*\] - ERR - log_ber_too_big_error - conn=.* fd=.* Incoming BER Element was too long, max allowable is 2097152 bytes. Change the nsslapd-maxbersize attribute in cn=config to increase.
+ns-slapd\[.*\]: \[.*\] - ERR - slapd_system_isFIPS - Can not access /proc/sys/crypto/fips_enabled - assuming FIPS is OFF
+ns-slapd\[.*\]: \[.*\] - INFO - NSMMReplicationPlugin - repl5_tot_run - Beginning total update of replica
+ns-slapd\[.*\]: \[.*\] - INFO - PBKDF2_SHA256 - Based on CPU performance, chose 2048 rounds
+ns-slapd\[.*\]: \[.*\] - INFO - Security Initialization
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_ancestorid_new_idl_create_index - import
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_copy_directory - Backing up file
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_copy_directory - Backing up file
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_db2ldif - export .*: Processed .* entries \(100%\).
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_db2ldif - export .*: Processed .* entries \(100%\).
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_get_nonleaf_ids - import
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_import_main - import
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_instance_start - Import is running with nsslapd-db-private-import-mem on; No other process is allowed to access the database
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_pre_close - All database threads now stopped
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_pre_close - Waiting for 4 database threads to stop
+ns-slapd\[.*\]: \[.*\] - INFO - bdb_start - Resizing db cache size
+ns-slapd\[.*\]: \[.*\] - INFO - connection_post_shutdown_cleanup - slapd shutting down
+ns-slapd\[.*\]: \[.*\] - INFO - dblayer_backup - Backing up file
+ns-slapd\[.*\]: \[.*\] - INFO - dblayer_copyfile - Copying
+ns-slapd\[.*\]: \[.*\] - INFO - dblayer_copyfile - Copying
+ns-slapd\[.*\]: \[.*\] - INFO - export_one_entry - export
+ns-slapd\[.*\]: \[.*\] - INFO - import_monitor_threads - import
+ns-slapd\[.*\]: \[.*\] - INFO - ldbm_back_instance_set_destructor - Set of instances destroyed
+ns-slapd\[.*\]: \[.*\] - INFO - ldbm_get_nonleaf_ids - import
+ns-slapd\[.*\]: \[.*\] - INFO - ldbm_instance_config_cachememsize_set
+ns-slapd\[.*\]: \[.*\] - INFO - main
+ns-slapd\[.*\]: \[.*\] - INFO - op_thread_cleanup - slapd shutting down
+ns-slapd\[.*\]: \[.*\] - INFO - slapd_daemon - Listening on /var/run/.*socket for LDAPI requests
+ns-slapd\[.*\]: \[.*\] - INFO - slapd_daemon - Listening on All Interfaces port 636 for LDAPS requests
+ns-slapd\[.*\]: \[.*\] - INFO - slapd_daemon - slapd shutting down - closing down internal subsystems and plugins
+ns-slapd\[.*\]: \[.*\] - INFO - slapd_extract_cert
+ns-slapd\[.*\]: \[.*\] - INFO - task_backup_thread - Backup finished.
+ns-slapd\[.*\]: \[.*\] - INFO - task_backup_thread - Beginning backup of 'ldbm database'
+ns-slapd\[.*\]: \[.*\] - INFO - task_backup_thread - Beginning backup of 'ldbm database'
+ns-slapd\[.*\]: \[.*\] - INFO - task_export_thread - Beginning export of
+ns-slapd\[.*\]: \[.*\] - INFO - task_export_thread - Export finished.
+ns-slapd\[.*\]: \[.*\] - NOTICE - NSMMReplicationPlugin - multimaster_be_state_change - Replica .* is going offline; disabling replication
+ns-slapd\[.*\]: \[.*\] - NOTICE - bdb_start_autotune
+ns-slapd\[.*\]: \[.*\] - WARN - Security Initialization - SSL alert: Sending pin request to SVRCore. You may need to run systemd-tty-ask-password-agent to provide the password.
+ns-slapd\[.*\]: cn: repl keep alive
+ns-slapd\[.*\]: objectclass: extensibleObject
+ns-slapd\[.*\]: objectclass: ldapsubentry
+ns-slapd\[.*\]: objectclass: top
+

@@ -1,0 +1,5 @@
+squid\[.*\]: Logfile: (opening|closing) log stdio:/var/spool/squid/netdb.state
+squid\[.*\]: NETDB state saved; .* entries, .* msec
+squid\[.*\]: Closing Pinger socket on FD
+squid\[.*\]: logfileRotate: daemon:
+squid\[.*\]: Pinger socket opened on FD

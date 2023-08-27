@@ -1,0 +1,146 @@
+# -- Do not modify by hand -- Ansible managed -----------------
+(\(|)systemd(\)|\(sd-pam\)|)\[.*\]: pam_unix.*: session (opened|closed) for user
+NetworkManager\[.*\]: <info>
+ansible-.*\[.*\]:
+audit\[.*\]: AVC apparmor
+avahi-daemon\[.*\]:
+cracklib\[.*\]:
+cracklib\[.*\]: no dictionary update necessary.
+dbus-daemon\[.*\]: .*AppArmor D-Bus mediation is enabled
+dbus-daemon\[.*\]: .*fwupd
+dbus-daemon\[.*\]: \[session uid=1000 pid=[0-9]+] Activating service
+dbus-daemon\[.*\]: \[session uid=1000 pid=[0-9]+] Successfully activated
+dbus-daemon\[.*\]: \[system\] Activating via systemd
+dbus-daemon\[.*\]: \[system\] Failed to activate service 'org.bluez'
+dbus-daemon\[.*\]: \[system\] Reloaded configuration
+dbus-daemon\[.*\]: \[system\] Successfully activated service
+ds_systemd_ask_password_acl\[.*\]: ERROR: ld.so: object
+find\[.*\]: removed '/var/log/atop/atop
+fwupd\[.*\]: .*Error opening directory .*/sys/firmware/efi/esrt/entries
+gcr-prompter\[.*\]:
+ifup\[.*\]: Waiting for DAD... Done
+kernel: .* hid-generic
+kernel: .* input:
+kernel: .*hub
+kernel: .*usb
+kernel: .*userif-3: sent link .* event
+kernel: r8152.*
+kernel:.*interrupt took too long
+ldap.*\[.*\]: DIGEST-MD5 common mech free
+lxcfs\[.*\]: proc_fuse.c: .* has unexpected cpu time: .* unable to determine idle time
+mate-screensaver-dialog\[.*\]: gkr-pam: unlocked login keyring
+mtp-probe\[.*\]: bus: .*, device
+mtp-probe\[.*\]: checking bus .*, device
+networkd-dispatcher\[.*\]: No valid path found for iwconfig
+pam_systemd.*: Failed to release session: Interrupted system call
+pipewire-media-session\[.*\]: .* error
+pipewire-media-session\[.*\]: could not make thread realtime: Permission denied
+pipewire-media-session\[.*\]: could not set nice-level to
+pipewire\[.*\]: Failed to receive portal pid
+pipewire\[.*\]: could not set nice-level to .*: Permission denied
+pipewire\[.*]: could not make thread realtime: Permission denied
+pulseaudio\[.*\]: Failed to create secure directory
+python3\[.*\]: ansible-
+rtkit-daemon\[.*\]: Successfully made thread [0-9]+ of process [0-9]+ owned by '[0-9]+' RT at priority [0-9]+.
+rtkit-daemon\[.*\]: Supervising [0-9]+ threads of [0-9]+ processes of [0-9]+ users.
+smartd\[.*\]: Device: .* \[SAT\], is back in ACTIVE or IDLE mode, resuming checks
+smartd\[.*\]: Device: .* \[SAT\], is in STANDBY mode, suspending checks
+smartd\[.*\]: Device: .*, state written to
+snapd\[.*\]: autorefresh.go:.*: auto-refresh: all snaps are up-to-date
+snapd\[.*\]: storehelpers.go:.*: cannot refresh: snap has no updates available
+sshd\[.*\]: Connection closed by authenticating user root .* port
+sshd\[.*\]: Connection closed by invalid user
+sshd\[.*\]: Disconnected from user jop 2001:718:1:6::134:166
+sshd\[.*\]: Disconnected from user root .* port
+sshd\[.*\]: Disconnected from user semik 2001:718:1:13:
+sshd\[.*\]: Disconnected from user semik 2001:718:1:6::134:138
+sshd\[.*\]: Disconnected from user semik 2a03:1160:47:26
+sshd\[.*\]: Received signal 15; terminating.
+sshd\[.*\]: pam_env.*: deprecated reading of user environment enabled
+sudo\[.*\]: * (root|nagios|jop|semik) : PWD=.* ; USER=.* ; COMMAND=.*
+sudo\[.*\]: * (root|nagios|jop|semik) : TTY=.* ; PWD=.* ; USER=.* ; COMMAND=.*
+syslog-ng\[.*\]: .*Current position not matches
+syslog-ng\[.*\]: Configuration reload finished;
+syslog-ng\[.*\]: Configuration reload request received
+syslog-ng\[.*\]: DIGEST-MD5 common mech free
+syslog-ng\[.*\]: Destination timeout has elapsed, closing connection
+syslog-ng\[.*\]: Syslog connection .*server='AF_INET\(195.113.161.23:514\)'
+syslog-ng\[.*\]: syslog-ng shutting down
+syslog-ng\[.*\]: syslog-ng starting up
+systemd-journald\[.*\]: Journal started
+systemd-journald\[.*\]: Runtime journal
+systemd-logind\[.*\]: Existing logind session ID .* used by new audit session, ignoring.
+systemd-logind\[.*\]: New seat seat
+systemd-logind\[.*\]: New seat seat0.
+systemd-logind\[.*\]: New session .* of user jop.
+systemd-logind\[.*\]: New session .* of user root.
+systemd-logind\[.*\]: New session .* of user semik.
+systemd-logind\[.*\]: Removed session .*.
+systemd-logind\[.*\]: Session .* logged out.
+systemd-logind\[.*]: Watching system buttons on /dev/input/
+systemd-resolved\[.*\]: Grace period over, resuming full feature set .UDP+EDNS0. for DNS server 195.113.144.194.
+systemd-resolved\[.*\]: Grace period over, resuming full feature set .UDP+EDNS0. for DNS server 2001:718:1:101::3.
+systemd-resolved\[.*\]: Grace period over, resuming full feature set .UDP+EDNS0. for DNS server 2001:718::53.
+systemd-resolved\[.*\]: Using degraded feature set .* for DNS server 195.113.144.194.
+systemd-resolved\[.*\]: Using degraded feature set .* for DNS server 2001:718:1:1::2.
+systemd-resolved\[.*\]: Using degraded feature set .* for DNS server 2001:718::53.
+systemd-sysctl\[.*\]: Couldn't write
+systemd-tmpfiles\[.*\]: .*drop-in file accordingly.
+systemd-udevd\[.*\]: Using default interface naming scheme
+systemd-udevd\[.*\]: link_config:
+systemd\[.*\]: .* Consumed .* CPU time.
+systemd\[.*\]: .*: Succeeded.
+systemd\[.*\]: .*GnuPG
+systemd\[.*\]: /lib/systemd/system/nagios-nrpe-server.service.* please update the unit file accordingly.
+systemd\[.*\]: Activating special unit exit.target...
+systemd\[.*\]: Closed CUPS Scheduler.
+systemd\[.*\]: Closed D-Bus User Message Bus Socket.
+systemd\[.*\]: Closed Multimedia System.
+systemd\[.*\]: Closed REST API socket for snapd user session agent.
+systemd\[.*\]: Closed debconf communication socket.
+systemd\[.*\]: Condition check resulted
+systemd\[.*\]: Condition check resulted in Getty on tty1 being skipped.
+systemd\[.*\]: Created
+systemd\[.*\]: Failed to start Sound Service.
+systemd\[.*\]: Finished .* Messages.
+systemd\[.*\]: Finished Autocommit of changes in /etc directory.
+systemd\[.*\]: Finished Certbot.
+systemd\[.*\]: Finished Clean php session files.
+systemd\[.*\]: Finished Cleanup of Temporary Directories.
+systemd\[.*\]: Finished Daily apt download activities.
+systemd\[.*\]: Finished Daily apt upgrade and clean activities.
+systemd\[.*\]: Finished Daily man-db regeneration.
+systemd\[.*\]: Finished Discard unused blocks on filesystems from
+systemd\[.*\]: Finished Exit the Session.
+systemd\[.*\]: Finished Message of the Day.
+systemd\[.*\]: Finished Online ext4 Metadata Check for All Filesystems.
+systemd\[.*\]: Finished Refresh fwupd metadata and update motd.
+systemd\[.*\]: Finished Restart .* daemon to rotate logs.
+systemd\[.*\]: Finished Rotate log files.
+systemd\[.*\]: Finished Ubuntu Advantage Timer for running repeated jobs.
+systemd\[.*\]: Finished User Runtime Directory
+systemd\[.*\]: Finished exim4-base housekeeping.
+systemd\[.*\]: Listening
+systemd\[.*\]: Queued start job for default target Main User Target.
+systemd\[.*\]: Reached
+systemd\[.*\]: Reloaded
+systemd\[.*\]: Reloading
+systemd\[.*\]: Removed slice User Application Slice.
+systemd\[.*\]: Removed slice User Slice
+systemd\[.*\]: Started
+systemd\[.*\]: Starting
+systemd\[.*\]: Startup finished in
+systemd\[.*\]: Stopped
+systemd\[.*\]: Stopping
+systemd\[.*\]: gpg-agent
+systemd\[.*\]: gpgconf
+systemd\[.*\]: pulseaudio.service
+systemd\[.*\]: pulseaudio.socket: Failed with result
+unattended-upgrade\[.*\]: Allowed origins are: origin=Debian,codename=bullseye,label=Debian-Security, origin=Debian,codename=bullseye-security,label=Debian-Security
+unattended-upgrade\[.*\]: Enabled logging to syslog via daemon facility
+unattended-upgrade\[.*\]: Initial blacklist:
+unattended-upgrade\[.*\]: Initial whitelist \(not strict\):
+unattended-upgrade\[.*\]: No packages found that can be upgraded unattended and no pending auto-removals
+unattended-upgrade\[.*\]: Starting unattended upgrades script
+userauth_pubkey: key type ssh-dss not in PubkeyAcceptedKeyTypes
+vmnet-natd\[.*\]: RTM_NEWADDR

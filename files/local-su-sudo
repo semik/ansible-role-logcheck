@@ -1,0 +1,5 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ su\[[0-9]+\]: \(to nobody\) root on none
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo\[[0-9]+\]: pam_[[:alnum:]]+\(sudo:session\): session opened for user [[:alnum:]-]+ by ([[:alnum:]-]+)?\(uid=[0-9]+\)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo\[[0-9]+\]: pam_[[:alnum:]]+\(sudo:session\): session opened for user [[:alnum:]-]+?\(uid=[0-9]+\) by ([[:alnum:]-]+)?\(uid=[0-9]+\)$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ sudo\[[0-9]+\]: pam_[[:alnum:]]+\(sudo:session\): session closed for user [[:alnum:]-]+$
+sudo\[.*\]:    [a-z]+ : TTY=pts/[0-9] ; PWD=/home/[a-z]+ ; USER=root ; COMMAND=/bin/sh -c echo BECOME-SUCCESS-.*ansible-tmp

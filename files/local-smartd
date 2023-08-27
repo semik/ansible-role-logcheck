@@ -1,0 +1,6 @@
+smartd\[.*\]: Copyright (C) 2002-22, Bruce Allen, Christian Franke, www.smartmontools.org
+smartd\[.*\]: Device: /dev/disk/by-id/ata-.*, type changed from 'scsi' to 'sat'
+smartd\[.*\]: Device: /dev/disk/by-id/ata-.*, .*, S/N:.*, WWN:.*, FW:
+smartd\[.*\]: Device: /dev/disk/by-id/ata-.*, found in smartd database
+smartd\[.*\]: Device: /dev/disk/by-id/ata-.*, type changed from 'scsi' to 'sat'
+smartd\[.*\]: Monitoring . ATA/SATA, . SCSI/SAS and . NVMe devices

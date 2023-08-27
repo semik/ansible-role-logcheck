@@ -1,0 +1,48 @@
+---
+- name: install logcheck
+  apt:
+    name:
+      - logcheck
+    cache_valid_time: "{{ apt_cache_valid_time }}"
+    update_cache: yes
+    state: present
+
+- name: config logcheck
+  template:
+    src: logcheck.conf.j2
+    dest: /etc/logcheck/logcheck.conf
+    owner: root
+    group: logcheck
+    mode: 0640
+    backup: yes
+
+- name: config logcheck logfiles
+  copy:
+    src: logcheck.logfiles
+    dest: /etc/logcheck/logcheck.logfiles
+    owner: root
+    group: logcheck
+    mode: 0640
+    backup: yes
+
+- name: config ignore.d.server
+  copy:
+    src: "{{ item }}"
+    dest: /etc/logcheck/ignore.d.server
+    owner: root
+    group: logcheck
+    mode: 0644
+    backup: yes
+  with_items:
+    - local-389
+    - local-ansible
+    - local-kernel
+    - local-nagios
+    - local-nrpe
+    - local-pq
+    - local-radiator
+    - local-smartd
+    - local-squid
+    - local-su-sudo
+    - local-system
+

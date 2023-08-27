@@ -1,0 +1,44 @@
+(cerstvost2|aggregateCZ|aggregate3).pl\[.*]: Country .* has total [0-9]+ caches, [0-9]+ caches with filled state, diff=1.
+(cerstvost2|aggregateCZ|aggregate3).pl\[.*]: Country .* has total [0-9]+ caches.*States might be considered!
+(cerstvost2|aggregateCZ|aggregate3).pl\[.*]: In country .* following caches are missing state:
+aggregate(3|CZ).pl\[.*\]: Exporting PQ for
+aggregate(3|CZ).pl\[.*\]: Filter
+aggregate(3|CZ).pl\[.*\]: Nothing changed for country
+aggregate(3|CZ).pl\[.*\]: Nothing to export for
+aggregate(3|CZ).pl\[.*\]: Runtime [0-9]+ sec
+aggregate(3|CZ).pl\[.*\]: SQL updated too recently
+aggregate(3|CZ).pl\[.*\]: Succesfully writen .*.zip
+aggregate(3|CZ).pl\[.*\]: Total caches: [0-9]+
+archeocaching.pl\[.*\]: Exported [0-9]+ archeocaches.
+archivator2.pl\[.*\]: Cache .* from .*
+archivator2.pl\[.*\]: PQ .*: total=[0-9]+, archived=[0-9]+, ok=[0-9]+.
+archivator2.pl\[.*\]: There is [0-9]+ posibly archived caches in
+build-intervals3.pl\[.*\]: File .* is empty
+publish-output.pl\[.*\]: /home/pq/PQ/PM/APQ-ZIP/
+publish-output.pl\[.*\]: /home/pq/dokuwiki/data/pages/
+publish-output.pl\[.*\]: Executing: /usr/bin/rsync
+receive2.pl\[.*\]: File /home/pq/dokuwiki/data/pages/rozsahy1000/.* is empty
+receive2.pl\[.*\]: Geocache .* Cache has changed coordinates.
+receive2.pl\[.*\]: Geocache .* update info
+receive2.pl\[.*\]: INSERT INTO
+receive2.pl\[.*\]: Loaded [0-9]+ and stored; updated [0-9]+ caches. Runtime [0-9]+s. Update rate
+receive2.pl\[.*\]: PQ cointains older .* data of geocache .*, than we already have
+receive2.pl\[.*\]: Renaming
+receive2.pl\[.*\]: UPDATE pq
+receive2.pl\[.*\]: emailDATE
+receive3.sh\[.*\]: Prilis mnoho [0-9]+ paralene bezicich receive2.pl. Koncim.
+synchronize-lists.pl\[.*\]: List pq-.*: Added
+synchronize-lists.pl\[.*\]: List pq-.*: Nothing to do.
+synchronize-lists.pl\[.*\]: Failed to read cacher "semik3"
+aggregate3.pl\[.*\]: File "/tmp/aggregate3.pl.pid" in way, waiting
+aggregate3.pl\[.*\]: We are already running as PID=[0-9]+, terminating!
+receive2.pl\[.*\]: Geocache .* has changed coordinates.
+receive2.pl\[.*\]: PQ .* od .* obsahuje kesky ktere by v nem byt nemely.
+archivator3.pl\[.*\]: In country .* is .* suspicios PQ
+archivator3.pl\[.*\]: Suspicious PQ .* is overflooded.
+archivator3.pl\[.*\]: Suspicious PQ .* is last of it's kind
+archivator3.pl\[.*\]: Suspicious PQ .* contains .* suspicious caches.
+archivator3.pl\[.*\]: Cache .* from .* is PM only. Unable to verify archived status.
+archivator3.pl\[.*\]: Cache .* from .* marked as possibly archived PM cache.
+archivator3.pl\[.*\]: Cache .* from .* was archived.
+archivator3.pl\[.*\]: Suspicious PQ .* id=.* with .* caches is AA- or XX-. Skiping it.

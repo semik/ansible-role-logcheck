@@ -1,0 +1,4 @@
+# -- Do not modify by hand -- Ansible managed -----------------
+nrpe\[.*\]: Error: \(use_ssl == true\): Request packet version was invalid!
+nrpe\[.*\]: Could not read request from client 2001:718:1:1d::187:74, bailing out...
+nrpe\[.*\]: INFO: SSL Socket Shutdown.

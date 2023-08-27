@@ -1,0 +1,4 @@
+/var/log/messages.log
+/var/log/daemon.log
+/var/log/kernel.log
+/var/log/pq.log

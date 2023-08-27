@@ -1,0 +1,7 @@
+kernel: DROP
+kernel: \[.*\] DROP
+kernel: \[.*\] usb
+kernel: \[.*\] r8152 .* enx00909331afaf: Stop submitting intr, status
+kernel: .*audit: .*
+kernel: br0: port .* entered (blocking|forwarding) state
+kernel: .*Not activating Mandatory Access Control as /sbin/tomoyo-init does not exist.
